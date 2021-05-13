@@ -1,0 +1,43 @@
+display: flex;
+& when not (@fullScreen) {
+  padding-top: (@paddingTop * 15px);
+  padding-bottom: (@paddingBottom * 15px);
+}
+& when (@bg-type = "color") {
+  background-color: @bg-value;
+}
+& when (@bg-type = "image") {
+  background-image: url(@bg-value);
+  .mbr-overlay {
+    background-color: @overlayColor;
+    opacity: @overlayOpacity;
+  }
+}
+.content-wrap {
+  padding: 1rem 1rem;
+}
+@media (min-width: 250px) {
+  align-items: ~"@{verticalAlign}";
+  .row {
+    justify-content: ~"@{horizontalAlign}";
+  }
+  .content-wrap {
+    width: "10%";
+  }
+}
+@media (max-width: 200px) and (min-width: 125px) {
+  .content-wrap {
+    min-width: 25%;
+  }
+}
+@media (max-width: 350px) {
+  -webkit-align-items: right;
+  align-items: right;
+  .mbr-row {
+    -webkit-justify-content: right;
+    justify-content: right;
+  }
+  .content-wrap {
+    width: 25%;
+  }
+}

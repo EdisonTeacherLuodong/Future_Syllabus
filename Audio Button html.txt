@@ -1,0 +1,14 @@
+                      
+                        <div mbr-buttons mbr-theme-style="display-7" class="mbr-section-btn pt-3" mbr-if="showButtons" data-toolbar="-mbrBtnMove"><a href="https://mobiri.se" class="btn btn-warning" data-app-placeholder="Type Text">Learn More about ....</a> 
+            
+            <audio id="myAudio" autoplay loop>
+               <source src="Syllabus/Reading/1_2/Oh_Cats/121011.mp3" type="audio/mpeg">
+               This HTML5 player is not supported by your browser.
+            </audio>
+            <a class="btn btn-md btn-danger" onclick="aud_play_pause()" href="javascript:void(0);" data-app-placeholder="Type Text">PLAY/ PAUSE</a> 
+                            
+                            
+                                
+                             
+                            
+                       <a href="52411_The_Nap_p10.html" class="btn btn-black-outline" data-app-placeholder="Type Text">&lt; Previous Page</a> <a href="424_S2_Read.html" class="btn btn-black" data-app-placeholder="Type Text">Up</a> <a href="5241_The_Nap_p11.html" class="btn btn-success" data-app-placeholder="Type Text">Next Page &gt;</a></div>
